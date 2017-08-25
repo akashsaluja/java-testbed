@@ -1,11 +1,15 @@
 package annotations;
 
+import jdk.nashorn.internal.objects.annotations.Getter;
+import lombok.Data;
+
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
  * Created by akash on 8/25/17.
  */
+@Data
 public class Main {
 
     @IfConditionAnnotation(enabled = true)
